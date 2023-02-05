@@ -39,6 +39,11 @@ header
     letter-spacing: 2px;
 }
 
+.logo img
+{
+    max-width: 35%;
+}
+
 header ul
 {
     display:flex;
@@ -118,6 +123,7 @@ section img#mountains_front
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
+    text-align: center;
 }
 
 #btn
@@ -150,4 +156,13 @@ section img#mountains_front
 {
     font-size: 1em;
     color: #ffffff;
+}
+#footer
+{
+    text-align: center;
+    color: #fff;
+    height: 75px;
+    position: relative;
+    padding: 25px;
+    background: #1c0522;
 }

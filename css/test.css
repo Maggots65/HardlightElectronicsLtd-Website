@@ -1,0 +1,18 @@
+div
+{
+    background: #1c0522;
+}
+div.img
+{
+    position:relative;
+    text-align: center;
+}
+div.text
+{
+    text-align: center;
+    color:#fff;
+}
+div.buttons
+{
+    text-align: center;
+}

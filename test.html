@@ -5,29 +5,46 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/test.css">
         <link rel="icon" type=image/png href="images/favicon-32x32.png" sizes="32x32">
     </head>
+    
     <body>
+        
         <header>
             <a href="index.html" class="logo"><img src="images/logo.png" alt="Main page."></a>
             <ul>
-                <li><a href="index.html" class="active">Index</a></li>
-                <li><a href="test.html">True/False</a></li>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="test.html" class="active">True/False</a></li>
             </ul>
         </header>
+        
         <section>
             <img src="images/stars.png" id="stars">
             <img src="images/moon.png" id="moon">
             <img src="images/mountains_behind.png" id="mountains_behind">
-            <h2 id="text">A new online<br>forms website</h2>
-            <a href="#sec" id="btn">Explore</a>
+            <h2 id="text">A quick test</h2>
+            <a href="#sec" id="btn">Fill out</a>
             <img src="images/mountains_front.png" id="mountains_front">
         </section>
+        
         <div class="sec" id="sec">
-            <h2>The project itself</h2>
-            <br>
-            <p>The new online forms platform project began life as a class project in our Infocommunication Technologies class, this website is the final stretch so to speak, the finish to our side of the project.<br><br>The website includes this main page, and a quick true or false test.</p>
+            <h2>True or false</h2>
         </div>
+
+        <div class="img">
+            <img src="D:\Stuff for Seedplanting\Pics\jpgs and other\tutel.jpeg">
+        </div>
+
+        <div class="text">
+            Turtle or no?
+        </div>
+
+        <div class="buttons">
+            <a href="https://youtu.be/oxzEdm29JLw"><button>True</button></a>
+            <a href="https://youtu.be/xvFZjo5PgG0"><button>False</button></a>
+        </div>
+
         <script>
             let stars=document.getElementById("stars");
             let moon=document.getElementById("moon");
@@ -49,8 +66,10 @@
                 header.style.top=value*0.5+"px";
             })
         </script>
+        
         <footer id="footer">
             <p>Copyright &copy; Hardlight Electronics Ltd., all rights reserved.</p>
         </footer>
+        
     </body>
 </html>
